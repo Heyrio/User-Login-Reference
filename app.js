@@ -9,7 +9,7 @@ const port = process.env.PORT || 5000;
 
 //DB config
 
-const URI = 'mongodb+srv://heyrio:password@cluster0-7cpbz.mongodb.net/test?retryWrites=true'
+const URI = 'mongodb+srv://heyrio:pass@cluster0-7cpbz.mongodb.net/test?retryWrites=true'
 
 mongoose.connect(URI,{useNewUrlParser: true})
 .then(()=>{
